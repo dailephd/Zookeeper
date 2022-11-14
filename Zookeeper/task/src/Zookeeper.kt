@@ -116,17 +116,16 @@ It looks like we will soon have more rabbits!"""
 val animals = arrayOf(camel, lion, deer, goose, bat, rabbit)
 
 fun main() {
-    println("Please enter the number of the habitat you would like to view:")
-    do {
-        val n = readln().toString()
-        if (n == "exit") {
-            println("See you later!")
-        } else {
-            val index = n.toInt()
-            println(animals[index])
-            println("---")
-            println("You've reached the end of the program. To check another habitat, please restart the watcher.")
-        }
-    } while (n != "exit")
+    // write yor code here
+
+    do { 
+    val n = readln().toString() 
+    if (n == "exit") {
+           println("See you later!")
+    } else {
+    val index = n.toInt()
+    println(animals[index])
+    }
+  } while (n != "exit")
 
 }
