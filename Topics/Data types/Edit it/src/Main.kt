@@ -1,0 +1,9 @@
+fun main() {
+  val part1 : String = "Kotlin "
+  val part2 = "is a cross-platform"
+  val part3 = ", statically typed, "
+  val part4 = "general-purpose programming language with type inference."
+
+  print(part1+part2+part3+part4)
+
+}
